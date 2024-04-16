@@ -1,35 +1,8 @@
 #include <iostream>
 #include <string>
 #include <stdexcept>
+#include "Calculator.h"
 
-// Simple calculator class declaration
-class Calculator {
-public:
-    // Addition operation
-    double add(double a, double b) {
-        return a + b;
-    }
-
-    // Subtraction operation
-    double subtract(double a, double b) {
-        return a - b;
-    }
-
-    // Multiplication operation
-    double multiply(double a, double b) {
-        return a * b;
-    }
-
-    // Division operation
-    double divide(double a, double b) {
-        if (b == 0) {
-            throw std::invalid_argument("Division by zero is not allowed");
-        }
-        return a / b;
-    }
-};
-
-// Main function
 int main(int argc, char* argv[]) {
     Calculator calc;
 
