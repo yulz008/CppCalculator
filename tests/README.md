@@ -8,4 +8,4 @@ cmake -G "Unix Makefiles"
 
 make
 
-hello_test.exe
+calculator_tests.exe
