@@ -1,0 +1,3 @@
+C:/Users/Ulysses Andulte/Documents/GitHub/CppCalculator/build/CMakeFiles/calculator.dir
+C:/Users/Ulysses Andulte/Documents/GitHub/CppCalculator/build/CMakeFiles/edit_cache.dir
+C:/Users/Ulysses Andulte/Documents/GitHub/CppCalculator/build/CMakeFiles/rebuild_cache.dir
