@@ -3,7 +3,7 @@
 #include <stdexcept>
 #include "Calculator.h"
 
-int main(int argc, char* argv[]) {
+int main(int argc, const char* argv[]) {
     Calculator calc;
 
     if (argc < 4) {
