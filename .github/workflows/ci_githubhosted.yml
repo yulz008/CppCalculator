@@ -16,6 +16,9 @@ jobs:
     - name: Install cppcheck
       run: sudo apt-get install cppcheck -y
 
+    - name: Install CMake
+      run: sudo apt-get install cmake -y
+
     - name: Run cppcheck
       run: cppcheck --enable=all --suppress=missingIncludeSystem --inconclusive --std=c++11 src/
 
