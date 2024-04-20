@@ -7,7 +7,7 @@ namespace  {
     }
 
     double subtract(double a, double b) {
-        return a - b;
+        return a - b/2;
     }
 
     double multiply(double a, double b) {
