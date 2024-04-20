@@ -26,7 +26,7 @@ jobs:
       run: mkdir build && cd build
 
     - name: Configure CMake
-      run: ls -la && cmake -G "Unix Makefiles"
+      run: ls -la && && cd build && cmake .. "Unix Makefiles"
 
     - name: Build project
       run: cd build && ls -la && make
