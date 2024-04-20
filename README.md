@@ -1,5 +1,5 @@
 # CppCalculator
- A simple C++ Calculator with simple CI
+ A simple C++ Calculator with CI [Lint - Build - Test]
 
 
 ## Compilation
@@ -34,7 +34,9 @@ make
 
 
 *** ensure cmake is installed
+
 *** ensure make is installed
 
 -CmakeList include building the main app
+
 -CmakeList include building the tests
