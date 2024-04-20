@@ -1,7 +1,7 @@
 #include "Calculator.h"
 #include <stdexcept>
 
-namespace operations {
+namespace  {
     double add(double a, double b) {
         return a + b;
     }
@@ -23,17 +23,17 @@ namespace operations {
 }
 
 double Calculator::add(double a, double b) {
-    return operations::add(a, b);  // Call the static function in the unnamed namespace
+    return ::add(a, b);  // Call the static function in the unnamed namespace
 }
 
 double Calculator::subtract(double a, double b) {
-    return operations::subtract(a, b);
+    return ::subtract(a, b);
 }
 
 double Calculator::multiply(double a, double b) {
-    return operations::multiply(a, b);
+    return ::multiply(a, b);
 }
 
 double Calculator::divide(double a, double b) {
-    return operations::divide(a, b);
+    return ::divide(a, b);
 }
