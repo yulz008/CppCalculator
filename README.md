@@ -1,5 +1,5 @@
 # CppCalculator
- A simple C++ Calculator with simple CI
+ A simple C++ Calculator with CI [Lint - Build - Test]
 
 
 ## Compilation
