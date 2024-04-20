@@ -34,7 +34,9 @@ make
 
 
 *** ensure cmake is installed
+
 *** ensure make is installed
 
 -CmakeList include building the main app
+
 -CmakeList include building the tests
