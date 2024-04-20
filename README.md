@@ -4,22 +4,22 @@
 
 ## Compilation
 
-### Using g++
+#### Using g++
 
 g++ -o calculator main.cpp Calculator.cpp
 
 
-### Using clang
+#### Using clang
 
 clang++ -o calculator.exe main.cpp Calculator.cpp
 
-### using cl.exe on "Developer Command Prompt for VS 2022"
+#### using cl.exe on "Developer Command Prompt for VS 2022"
 
 cl /EHsc /Fe:calculator main.cpp Calculator.cpp
 
 
 
-### Using Cmake to build
+#### Using Cmake to build
 
 *on root directory
 
@@ -40,3 +40,8 @@ make
 -CmakeList include building the main app
 
 -CmakeList include building the tests
+
+
+## Improvements
+
+- Add a system/integration testing
