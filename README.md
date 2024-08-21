@@ -1,5 +1,7 @@
 # CppCalculator
- A simple C++ Calculator with CI [Lint - Build - Test]. Utilizes google test for unit testing.
+ A simple C++ Calculator with CI [Lint - Build - Test]. 
+ 
+ Utilizes GoogleTest for unit testing.
 
 ## Compilation
 
