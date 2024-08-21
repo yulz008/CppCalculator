@@ -1,6 +1,5 @@
 # CppCalculator
- A simple C++ Calculator with CI [Lint - Build - Test]
-
+ A simple C++ Calculator with CI [Lint - Build - Test]. Utilizes google test for unit testing.
 
 ## Compilation
 
@@ -31,7 +30,7 @@ cmake .. -G "Unix Makefiles"
 make
 ```
 
-### Note 
+### Notes
 * ensure cmake is installed
 
 * ensure make is installed
