@@ -1,7 +1,9 @@
 # CppCalculator
- A simple C++ Calculator with CI [Lint - Build - Test]. 
+ A simple C++ Calculator with Continuous Integration (CI) [Lint - Build - Test] flow, via Github Workflow Action see .github/workflows. 
+ Each PR will trigger an action to build and tests the PR. This uses the Github's hosted machine to run the builds. 
+ See Actions Tab to view the build and tests results.
  
- Utilizes GoogleTest for unit testing.
+ This project utilizes GoogleTest for unit testing.
 
 ## Compilation
 
